@@ -1,0 +1,32 @@
+.cart-item {
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    grid-gap: 0.5rem;
+    .product-img {
+        width: 77px;
+        height: 77px;
+    }
+    .product-info {
+        .product-title {
+            font-weight: 300;
+            color: $blackColor;
+        }
+        .product-price {
+            font-weight: 500;
+            color: #000;
+            margin: 0.5rem 0;
+        }
+        .remove-btn {
+            color: $blackColor;
+        }
+    }
+    .amount-box {
+        text-align: center;
+        .amount {
+            padding: 0.5rem;
+            color: $blackColor;
+        }
+    }
+}
